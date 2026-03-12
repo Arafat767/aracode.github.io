@@ -483,3 +483,53 @@ h1 {
   padding: 5px;
   text-align: center;
 }
+@media (max-width: 768px) {
+
+  body {
+    margin: 0;
+    padding: 10px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+}
+.img-caption {
+    position: absolute;
+}
+@media (max-width: 768px) {
+
+  body {
+    margin: 0;
+    padding: 10px;
+  }
+
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+}
